@@ -9,7 +9,7 @@ class App extends Component {
   state = {artist: null, tracks: []};
 
   componentDidMount() {
-    this.searchArtist("shakira");
+    this.searchArtist("Michael Jackson");
   }
 
   searchArtist = (artistQuery) => {
